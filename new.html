@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Cozy Cafe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta">Reserve a Table</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+     
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Freshly Brewed, Just for You!</h2>
+            <p>Enjoy our handcrafted coffee and pastries in a cozy atmosphere.</p>
+            <a href="#menu" class="cta">View Menu</a>
+            <a href="https://example.com" target="_blank" class="cta secondary">Order Online</a>
+        </div>
+    </section>
+
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <img src="coffee.jpg" alt="Cappuccino"></img>
+                <p>Rich and creamy, made with freshly ground beans.</p>
+                <span>₹120.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cheesecake</h3>
+                <img src="dessert.jpg" alt="Cheesecake"></img>
+                <p>Classic cheesecake with a creamy texture and topped with a hint of vanilla</p>
+                <span>₹250.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chilli Cheese Toast</h3>
+                <img src="Chilli-Cheese-Toast.jpg" alt="Chilli-Cheese-Toast"></img>
+                <p>Perfect cheese toast and a sprinkle of chili flakes.</p>
+                <span>₹150.00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p>Address: Tiger circle, Manipal</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <video autoplay muted loop playsinline width="500">
+                    <source src="coffeestock.mp4">
+                </video>
+                <p>At Cozy Cafe, we believe in quality, comfort, and community.</p>
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Cozy Cafe. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
